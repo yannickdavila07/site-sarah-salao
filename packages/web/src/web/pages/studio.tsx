@@ -328,7 +328,7 @@ export default function StudioPage() {
         <section id="inicio" ref={hero} className="hero">
           <motion.div className="hero-image" style={{ y: reduced ? 0 : y }}>
             <img
-              src="/public/images/hero-section.jpg"
+              src="/images/hero-section.jpg"
             />
           </motion.div>
           <div className="hero-overlay" />
@@ -381,7 +381,7 @@ export default function StudioPage() {
                 aria-label="Ampliar fotografia ilustrativa de salão"
               >
                 <img
-                  src="/public/images/resultado2.jpg"
+                  src="/images/resultado2.jpg"
                   
                 />
               </button>
@@ -391,7 +391,7 @@ export default function StudioPage() {
                 aria-label="Ampliar fotografia ilustrativa de cuidado capilar"
               >
                 <img
-                  src="/public/images/salao2.jpg"
+                  src="/images/salao2.jpg"
                 />
               </button>
               <button
@@ -400,7 +400,7 @@ export default function StudioPage() {
                 aria-label="Ampliar fotografia ilustrativa de cabelo loiro"
               >
                 <img
-                  src="/public/images/resultado1.jpg"
+                  src="/images/resultado1.jpg"
                   alt={images.blonde.alt}
                   loading="lazy"
                   width="900"

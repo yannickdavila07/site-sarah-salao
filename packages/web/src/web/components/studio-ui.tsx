@@ -209,7 +209,7 @@ export function ImageModal({ image, onClose }: { image: StudioImage | null; onCl
           <figure>
             <img src={image.src} alt={image.alt} />
             <figcaption>
-              Imagem ilustrativa. Não representa o espaço ou trabalhos do Sarah Studio.
+              
             </figcaption>
           </figure>
         </motion.dialog>
